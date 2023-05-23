@@ -34,7 +34,7 @@ export default function TextArea(props) {
     <div className="container my-4" style={{color:props.mode ==="dark"?'white':'black'}}>
         <h1>Your Text Summary</h1>
         <p>{text.split(" ").length - 1} words and {text.length} characters</p>
-        <p> {0.008*text.split(" ").length-1} Minutes to Read </p>
+        <p> {0.008*text.split(" ").length-0.008} Minutes to Read </p>
         
     </div>
     <div className="container" style={{color:props.mode ==="dark"?'white':'black'}}>
